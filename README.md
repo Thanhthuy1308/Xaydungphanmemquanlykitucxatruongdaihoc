@@ -1,2 +1,39 @@
-# Xaydungphanmemquanlykitucxatruongdaihoc
-Phần mềm quản lý KTX giúp số hóa quy trình từ đăng ký nội trú, xếp phòng đến tính toán hóa đơn điện nước. Hệ thống quản trị tập trung giúp nhà trường tối ưu nguồn lực, báo cáo trực quan và giảm sai sót thủ công. Sinh viên dễ dàng theo dõi chi phí, thanh toán QR và báo cáo sự cố trực tuyến, tạo môi trường sống hiện đại và minh bạch.
+# KTX Management System
+
+Hệ thống quản lý ký túc xá được xây dựng bằng Python, Tkinter và SQLite.
+
+# Tài khoản demo
+* Username: admin
+* Password: admin123
+
+## Chức năng chính
+
+* Quản lý sinh viên
+* Quản lý tòa nhà
+* Quản lý phòng và giường
+* Quản lý hóa đơn
+* Báo cáo doanh thu theo tháng
+* Đăng nhập hệ thống
+
+## Công nghệ sử dụng
+
+* Python
+* Tkinter
+* SQLite
+
+## Cách chạy chương trình
+
+```bash id="d8xz2q"
+python main.py
+```
+
+## Cấu trúc project
+
+```bash id="8mjlwm"
+controllers/
+models/
+views/
+utils/
+main.py
+```
+
